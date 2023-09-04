@@ -1,0 +1,36 @@
+.dates-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.dates-grid__square {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #C2BEBE;
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.dates-grid__square.active {
+    border: 3px solid #4F5902;
+    color: #4F5902;
+}
+
+.dates-grid__square__day-name {
+    text-transform: uppercase;
+}
+
+.dates-grid__square__day-num {
+    text-transform: uppercase;
+    font-weight: 600;
+}

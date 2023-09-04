@@ -1,0 +1,57 @@
+.header-upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.logo {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-upper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.logo-upper__h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #4F5902;
+}
+
+.logo-upper__icon {
+    max-width: 150px;
+}
+
+.logo-lower__h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.login-show {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav__item {
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 1rem;
+    width: 100%;
+}

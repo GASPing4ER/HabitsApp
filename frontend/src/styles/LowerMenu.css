@@ -1,0 +1,30 @@
+.lower-menu {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.lower-menu__icons-left {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.lower-menu__icons-right {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.lower-menu__icon-fa {
+    color: #C2BEBE;
+    font-size: 2rem;
+}
+
+.lower-menu__icons-left .lower-menu__icon-fa:first-child {
+    color: #4F5902;
+}

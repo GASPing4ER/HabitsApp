@@ -1,0 +1,48 @@
+.habit-form {
+    position: absolute;
+    padding: 100px 100px;
+    background-color: #ffffff;
+    border: 3px solid #4F5902;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.habit-form__title {
+    align-self: center;
+    color: #4F5902;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.habit-form__field {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.habit-form__field-label {
+    font-size: 1.25rem;
+}
+
+.habit-form__field-input {
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid #4F5902;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.habit-form__submit-button {
+    background-color: #4F5902;
+    padding: 10px 10px;
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    cursor: pointer;
+}

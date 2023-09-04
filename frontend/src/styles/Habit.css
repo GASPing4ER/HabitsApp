@@ -1,0 +1,43 @@
+.habit {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.habit__icon {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #4F5902;
+    border-radius: 99px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit__content-h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+}
+
+.habit__content-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+}
+
+.habit__icon.active {
+    background-color: #4F5902;
+    background-image: url("../icons/LogoAlpha.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.habit__icon_fa {
+    color: #fff;
+}
+
+.habit__icon_fa-green {
+    color: #4F5902;
+    cursor: pointer;
+}
